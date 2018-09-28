@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Bootstrap Theme Simply Me</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 {
+      background-color: #1abc9c; /* Green */
+      color: #ffffff;
+  }
+  .bg-2 {
+      background-color: #474e5d; /* Dark Blue */
+      color: #ffffff;
+  }
+  .bg-3 {
+      background-color: #ffffff; /* White */
+      color: #555555;
+  }
+  .bg-4 {
+      background-color: #2f2f2f; /* Black Gray */
+      color: #fff;
+  }
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+  .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+  .glyphicon {
+    font-size: 50px;
+  }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#WHAT">WHAT</a></li>
+        <li><a href="#RESOURCE">RESOURCES</a></li>
+        <li><a href="#WHO">WHO</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+  <h3 class="margin">Towards an Empirical Model to Identify When Bugs are Introduced </h3>
+  <img src="bugimg.png"  style="display:inline" alt="Bird" width="350" height="350">
+  <h3> Doctoral Thesis, 2018</h3>
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center" id="WHAT">
+  <h3 class="margin">What is this thesis about?</h3>
+  <p> Finding which changes introduced bugs into the source code is important because it is the first step to understand how code becomes buggy. Changes do not introduced bugs in the same way, for instance, some changes do not directly introduce bugs into the software product, and others introduce bugs after changing some especifications of the project.</p>
+<p> This dissertation proposes a theoretical model to determine how changes introduce bugs in software products. The model is based on the concept of when bugs manifest themselves for the first time, and how that can be determined by running a test. The validity of the model has been explored with a careful, manual analysis of a number of bugs in two different open source systems.</p>
+<p> The results of the analysis have demonstrated that bugs are not always introduced in the source code, and this phenomenon should be further investigated to improve other disciplines of software engineering.</p>
+<p> An interesting specific result of the model is that it provides a clear condition to determine if a given algorithm for identifying the change introducing a bug is correct or not when performing the identification. This allows (i) to compute the “real” performance of algorithms based on backtracking the modified lines that fixed a bug, and (ii) a sound evaluation of those algorithms. </p>
+</div>
+
+<!-- Third Container -->
+<div class="container-fluid bg-4 text-center" id="RESOURCE">
+  <h3 class="margin">Contents and Resources</h3>
+  <p> Finding which changes introduced bugs into the source code is important because it is the first step to understand how code becomes buggy. Changes do not introduced bugs in the same way, for instance, some changes do not directly introduce bugs into the software product, and others introduce bugs after changing some especifications of the project.</p>
+  <p> This dissertation proposes a theoretical model to determine how changes introduce bugs in software products. The model is based on the concept of when bugs manifest themselves for the first time, and how that can be determined by running a test. The validity of the model has been explored with a careful, manual analysis of a number of bugs in two different open source systems.</p>
+  <p> The results of the analysis have demonstrated that bugs are not always introduced in the source code, and this phenomenon should be further investigated to improve other disciplines of software engineering.</p>
+  <p> An interesting specific result of the model is that it provides a clear condition to determine if a given algorithm for identifying the change introducing a bug is correct or not when performing the identification. This allows (i) to compute the “real” performance of algorithms based on backtracking the modified lines that fixed a bug, and (ii) a sound evaluation of those algorithms. </p>
+
+  <div class="row">
+    <div class="col-sm-4">
+  	   <p> Thesis, PDF <br><a href="https://github.com/Gemarodri/Presentacion/blob/master/memoria.pdf"><i class="glyphicon glyphicon-book"></i></a></br></p>
+     </div>
+     <div class="col-sm-4">
+       <p> Data <br><a href="https://github.com/Gemarodri/Thesis-Gema/tree/master/Data"><i class="glyphicon glyphicon-folder-open"></i></a></br></p>
+    </div>
+    <div class="col-sm-4">
+      <p> Results <br><a href="https://github.com/Gemarodri/Thesis-Gema/tree/master/Results"><i class="glyphicon glyphicon-signal"></i></a></br></p>
+   </div>
+   </div>
+
+</div>
+
+<!-- Fourth Container (Grid) -->
+<div class="container-fluid bg-3 text-center" id="WHO">
+  <h3 class="margin">Who am I?</h3><br>
+      <p>My name is Gema Rodriguez Perez, I am a researcher in LibreSoft group and Ph.D. student at University Rey Juan Carlos, Spain. Currently I'm working as visiting researcher at Delft University of Technology and Eindhoven University of Technology in The Netherlands.
+        My research interests focus on Open Source System, Software Evolution, Mining Software Repositories and Empirical Study.
+        More information about myselft and publications can be found in my Personal web page</p>
+
+    <a href="https://gemarodri.github.io/Presentacion/" class="btn btn-default btn-lg">
+      <span class="glyphicon glyphicon-search"></span> ME
+    </a>
+</div>
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+  <p> mail: GEMA (DOT) RODRIGUEZ (AT) URJC (DOT) ES</p>
+</footer>
+
+</body>
+</html>
