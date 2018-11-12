@@ -32,6 +32,10 @@
       background-color: #2f2f2f; /* Black Gray */
       color: #fff;
   }
+  .bg-5 {
+      background-color: #C0C0C0; /* light Gray */
+      color: #fff;
+  }
   .container-fluid {
       padding-top: 70px;
       padding-bottom: 70px;
@@ -103,10 +107,8 @@
   <div class="row">
     <div class="col-sm-4">
   	   <p> Thesis, PDF <br><a href="memoria.pdf"><i class="glyphicon glyphicon-book"></i></a></br></p>
+       <p> Slides <br><a href="PHD_Defense.pdf"><i class="glyphicon glyphicon-blackboard"></i></a></br></p>
      </div>
-   <div class="col-sm-4">
-      <p> Slides <br><a href="PHD_Defense"><i class="glyphicon glyphicon-blackboard"></i></a></br></p>
-   </div>
      <div class="col-sm-4">
        <p> Data <br><a href="https://github.com/Gemarodri/Thesis-Gema/tree/master/Data"><i class="glyphicon glyphicon-folder-open"></i></a></br></p>
     </div>
@@ -118,9 +120,20 @@
 </div>
 
 <!-- Fourth Container (Grid) -->
-<div class="container-fluid bg-3 text-center" id="Publications">
+<div class="container-fluid bg-5 text-center" id="Publications">
   <h3 class="margin">Publications</h3><br>
-      <p>A list with all my publications can be found in <a href="https://scholar.google.ca/citations?user=QijxP8AAAAAJ&hl=en">Google Scholar</a> or in <a href="https://dblp.uni-trier.de/pers/hd/r/Rodr=iacute=guez=P=eacute=rez:Gema">Dblp</a> </p>
+      <p>A list with all my publications can be found in: </p>
+    <div class="col-sm-4">
+      <a href="https://scholar.google.ca/citations?user=QijxP8AAAAAJ&hl=en" class="btn btn-default btn-lg">
+      <span class="glyphicon glyphicon-search"></span> Google Scholar
+    </a>
+   </div>
+  <div class="col-sm-4">
+      <a href="https://dblp.uni-trier.de/pers/hd/r/Rodr=iacute=guez=P=eacute=rez:Gema" class="btn btn-default btn-lg">
+      <span class="glyphicon glyphicon-search"></span> Dblp
+    </a>
+   </div>
+    
 </div>
 
 <!-- Fifth Container (Grid) -->
